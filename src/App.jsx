@@ -24,6 +24,7 @@ function App() {
         {
           path:'/home',
           element: <Home/>,
+          loader: () => fetch('categories.json'),
         },
         {
           path: "/applied",

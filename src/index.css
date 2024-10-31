@@ -21,3 +21,8 @@ body{
 .header-bg{
     background: linear-gradient(232deg, rgba(152, 115, 255, 0.101) 100%, rgba(126, 143, 254, 0.108) 100%);
 }
+
+
+.cardBg{
+    background: linear-gradient(90.00deg, #7e8ffe2f , #9873ff25);
+}
