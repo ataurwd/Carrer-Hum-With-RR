@@ -10,7 +10,7 @@ const Categories = ({data}) => {
             <div className='lg:px-32 grid lg:grid-cols-4 grid-cols-1 place-items-center mb-10'>
             {
                 data.map((category) => (
-                    <div key={category.id} className='space-y-1 cardBg p-8 rounded-xl'>
+                    <div key={category.id} className='space-y-1 cardBg p-8 rounded-xl cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:skew-x-6 hover:shadow-lg hover:bg-[#7e8ffe77] hover:text-white'>
                         <img className='w-10 h-10 mb-2' src={category.logo} alt="" />
                         <h2 className='font-bold text-xl'>{category.category_name}</h2>
                         <p className='text-[#A3A3A3]'>{category.availability}</p>

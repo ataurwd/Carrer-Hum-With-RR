@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap');
 
 .mainBg{
-    background: linear-gradient(90.00deg, rgb(126, 144, 254),rgb(152, 115, 255) 100%);
+    background: linear-gradient(90.00deg, #7e90fe,rgb(152, 115, 255) 100%);
 }
 
 body{
@@ -25,4 +25,11 @@ body{
 
 .cardBg{
     background: linear-gradient(90.00deg, #7e8ffe2f , #9873ff25);
+}
+
+.borderGradient {
+    border: 2px solid transparent; 
+    border-image: linear-gradient(232deg, rgba(152,115,255,1) 0%, rgba(126,144,254,1) 100%);
+    border-image-slice: 1; 
+    border-radius: 20px;
 }
