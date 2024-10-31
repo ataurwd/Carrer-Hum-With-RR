@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Sora:wght@100..800&display=swap');
+
+.mainBg{
+    background: linear-gradient(90.00deg, rgb(126, 144, 254),rgb(152, 115, 255) 100%);
+}
+
+body{
+    font-family: "Manrope", 
+}
+
+.textGradient {
+    background: linear-gradient(232deg, rgba(152,115,255,1) 0%, rgba(126,144,254,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-bg{
+    background: linear-gradient(232deg, rgba(152, 115, 255, 0.101) 100%, rgba(126, 143, 254, 0.108) 100%);
+}
